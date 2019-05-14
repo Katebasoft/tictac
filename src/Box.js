@@ -8,7 +8,7 @@ class Box extends React.Component {
     }
 
     render(){
-        return;
+        return <button></button>;
     }
 }
 

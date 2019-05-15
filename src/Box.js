@@ -8,7 +8,7 @@ class Box extends React.Component {
     }
 
     render(){
-        return <button></button>;
+        return <button onClick={this.props.onClick}>{this.props.value}</button>;
     }
 }
 
